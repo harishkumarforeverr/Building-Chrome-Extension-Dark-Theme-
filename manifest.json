@@ -1,0 +1,12 @@
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "A simple extension that runs JS code on a website.",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
