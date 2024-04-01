@@ -9,6 +9,7 @@ var cssRules = `
   }
 `;
 
+
 // Create a <style> element
 var styleElement = document.createElement("style");
 styleElement.type = "text/css";
